@@ -198,6 +198,13 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.callout-furniture {
+    background: url(http://www.propertylettingfurniture.co.uk/images/www.propertylettingfurniture.co.uk/big/413413845101Furniture%201.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* Portfolio */
 
 .portfolio {
