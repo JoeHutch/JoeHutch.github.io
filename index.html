@@ -50,7 +50,18 @@
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Shopping Cart</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact us</a>
+                <a href="#" class="snipcart-checkout">Click here to checkout</a>
+            </li>
+            <div class="snipcart-summary">
+    &nbsp; &nbsp; &nbsp; &nbsp;Number of items: <span class="snipcart-total-items"></span>
+    Total price: <span class="snipcart-total-price"></span>
+                </li>
+            <li>
+                <a href="#" class="snipcart-user-profile">
+  User profile
+                 </a>
+                 </li>
+</div>
             </li>
         </ul>
     </nav>
@@ -141,6 +152,14 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
+                     <a href="#"
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Books "
+    data-item-price="5.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/bacon"
+    data-item-description="Newest Games around">
             <h1>Books</h1>
         </div>
     </aside>
@@ -151,11 +170,11 @@
             <a href="#"
     class="snipcart-add-item"
     data-item-id="2"
-    data-item-name="Bacon"
-    data-item-price="3.00"
+    data-item-name="Games &amp; Electronics "
+    data-item-price="30.00"
     data-item-weight="20"
     data-item-url="http://myapp.com/products/bacon"
-    data-item-description="Some fresh bacon">
+    data-item-description="Newest Games around">
         <h1>Games &amp; Electronics</h1>
 </a>
         </div>
@@ -163,12 +182,28 @@
      <!-- Callout -->
     <aside class="callout callout-furniture">
         <div class="text-vertical-center">
+                     <a href="#"
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Furniture "
+    data-item-price="50.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/bacon"
+    data-item-description="Newest Games around">
             <h1>Furniture</h1>
         </div>
     </aside>
      <!-- Callout -->
     <aside class="callout callout-clothing">
         <div class="text-vertical-center">
+                     <a href="#"
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Clothing "
+    data-item-price="20.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/bacon"
+    data-item-description="Newest Games around">
             <h1>Clothing</h1>
         </div>
     </aside>
@@ -273,7 +308,9 @@
 <script type="text/javascript"
     id="snipcart"
     src="https://cdn.snipcart.com/scripts/snipcart.js"
-    data-api-key="MTcwN2Y3NTItNjU2Ny00MzY5LTllMjMtOTBjMjVkZGM1Yzdh"></script>
+    data-api-key="MTcwN2Y3NTItNjU2Ny00MzY5LTllMjMtOTBjMjVkZGM1Yzdh"
+    data-autopop="false">
+    </script>
 
 <link id="snipcart-theme" type="text/css"
     href="https://cdn.snipcart.com/themes/base/snipcart.min.css"
