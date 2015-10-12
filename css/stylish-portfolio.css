@@ -205,6 +205,13 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.callout-clothing {
+     background: url(http://cdn.sheknows.com/articles/crave/closet-clothes-donate-600.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* Portfolio */
 
 .portfolio {
